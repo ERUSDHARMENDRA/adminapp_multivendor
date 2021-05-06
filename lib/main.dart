@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Shop4ShapeYou Admin Dash Board',
       theme: ThemeData(
-        primaryColor: Color(0xFFFED700),
+        primaryColor: Color(0xFF995F06),
       ),
       home: MyHomePage(title: 'ShapeYou App Admin Dashboard',),
     );
@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
 decoration: BoxDecoration(
   gradient: LinearGradient(
     colors: [
-      Color(0xFFFED700),
+      Color(0xFF995F06),
       Colors.white
     ],
       stops: [1.0,1.0],
